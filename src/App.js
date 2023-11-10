@@ -1,5 +1,6 @@
 
 import './App.css';
+import AssignmentTwo from './components/AssignmentTwo';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <p>
       I am your Emmanuel Darko Cobblah, this is my first React application
       </p>
+      <AssignmentTwo/>
     </div>
   );
 }
