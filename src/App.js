@@ -1,6 +1,7 @@
 
 import './App.css';
 import AssignmentTwo from './components/AssignmentTwo';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
       I am your Emmanuel Darko Cobblah, this is my first React application
       </p>
       <AssignmentTwo/>
+     <div className='assignment-3'>
+     <Button name='Login' />
+      <Button name='Signin' />
+     </div>
     </div>
   );
 }
